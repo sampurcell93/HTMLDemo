@@ -1,8 +1,20 @@
-p.red-text {
+p.blue { 
+    color:blue; 
+}
+
+p.main-text {
     color: red;
     font-family: sans-serif;   
     font-size: 30px;
     border: 1px solid red;
     margin-top: 100px;
     padding: 10px;
+}
+
+img#full-width {
+    width: 100%;
+}
+
+p[rel='myname'] {
+    color: green;
 }
